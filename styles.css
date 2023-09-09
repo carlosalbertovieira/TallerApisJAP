@@ -1,3 +1,28 @@
-h1{
-    font-size: 500px;
+body {
+    background-image: url('traductor.jpeg');
+    background-size: cover; /* Esto ajusta la imagen para cubrir todo el fondo del body */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+   text-align: center;
+}
+/* Estilos para h1 */
+h1 {
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 24px; /* Cambia el tamaño de fuente a tu preferencia */
+}
+
+/* Estilos para h2 */
+h2 {
+    color: white; /* Cambia el color del texto a blanco */
+    font-size: 20px; /* Cambia el tamaño de fuente a tu preferencia */
+}
+#translateButton{
+    margin-top: 10px;
+    border-radius: 58px;
+}
+#textToTranslate{
+    text-align: center;
+    border-radius: 58px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  20px 20px 41px #d9d9d9,
+             -20px -20px 41px #ffffff;
 }
