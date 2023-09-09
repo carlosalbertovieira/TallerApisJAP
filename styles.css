@@ -1,19 +1,19 @@
 body {
     background-image: url('traductor.jpeg');
-    background-size: cover; /* Esto ajusta la imagen para cubrir todo el fondo del body */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-size: cover; 
+    background-repeat: no-repeat; 
    text-align: center;
 }
 /* Estilos para h1 */
 h1 {
-    color: white; /* Cambia el color del texto a blanco */
-    font-size: 24px; /* Cambia el tamaño de fuente a tu preferencia */
+    color: white; 
+    font-size: 48px; 
 }
 
 /* Estilos para h2 */
 h2 {
-    color: white; /* Cambia el color del texto a blanco */
-    font-size: 20px; /* Cambia el tamaño de fuente a tu preferencia */
+    color: rgb(252, 0, 0); 
+    font-size: 20px; 
 }
 #translateButton{
     margin-top: 10px;
@@ -25,4 +25,12 @@ h2 {
 background: linear-gradient(145deg, #e6e6e6, #ffffff);
 box-shadow:  20px 20px 41px #d9d9d9,
              -20px -20px 41px #ffffff;
+}
+label{
+    color: #fa0000;
+    font-size: 20px;
+}
+#translationResult{
+    font-size: 20px;
+    color: #d9d9d9;
 }
